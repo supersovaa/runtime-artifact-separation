@@ -1,11 +1,11 @@
 ---
 name: runtime-artifact-separation
-description: Separate reproducible execution environments and working infrastructure from generated artifacts retained for inspection or reuse. Use when preparing development environments, configuring execution or output paths, implementing generators, or running tests that create files.
+description: When setting up environments, choosing paths, writing generators, or running file-producing tests, separate runtime infrastructure from outputs retained for inspection or reuse.
 ---
 
 # Runtime Artifact Separation
 
-Keep execution environments and retained outputs in separate directory roots.
+Use separate directory roots for the environment that runs the work and the generated results kept for later use.
 
 ## Core rule
 
